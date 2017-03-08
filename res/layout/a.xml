@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_colllogs_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/calllogs_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="#FFFFFF"
+            android:dividerHeight="2dp"
+            android:fadingEdge="none" />
+
+        <TextView
+            android:id="@+id/nocalllogs_notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="暂无通话记录"
+            android:textColor="#000000"
+            android:textSize="28dip"
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@+id/bohaobtn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/bohao_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="jp_onClick"
+                android:text="键盘" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bohaobtn_layout"
+            android:orientation="vertical" >
+
+            <include
+                android:layout_height="324dp"
+                layout="@layout/bohao_layout" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

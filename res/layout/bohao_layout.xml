@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shuzijianpan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <EditText
+        android:hint="@string/shuruhaoma"
+        android:id="@+id/shuzi_edit"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColorHighlight="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:id="@+id/shuzi1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_1" />
+
+        <ImageButton
+            android:id="@+id/shuzi2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_2" />
+
+        <ImageButton
+            android:id="@+id/shuzi3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:id="@+id/shuzi4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_4" />
+
+        <ImageButton
+            android:id="@+id/shuzi5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_5" />
+
+        <ImageButton
+            android:id="@+id/shuzi6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:id="@+id/shuzi7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_7" />
+
+        <ImageButton
+            android:id="@+id/shuzi8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_8" />
+
+        <ImageButton
+            android:id="@+id/shuzi9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:id="@+id/shuzi_xing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_xing" />
+
+        <ImageButton
+            android:id="@+id/shuzi0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_0" />
+
+        <ImageButton
+            android:id="@+id/shuzi_jing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:src="@drawable/f_jing" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/dadianhua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:text="拨打" />
+        <Button
+            android:id="@+id/shuzi_shanchubtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="jp_onClick"
+            android:text="退格" />
+
+    </LinearLayout>
+
+</LinearLayout>

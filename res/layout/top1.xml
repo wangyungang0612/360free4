@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<RelativeLayout 
+            android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+            android:layout_width="match_parent" 
+    		android:layout_height="wrap_content" 
+    		android:padding="12dip"
+            >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true"
+    			android:gravity="center"
+                >
+                <ImageView 
+                    android:layout_width="30dp" 
+    				android:layout_height="30dp" 
+    				android:src="@drawable/inmy_address"
+                    />
+                <TextView
+                    android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:text="通讯录"
+    				android:layout_marginLeft="10dip"
+    				android:textSize="18dp"
+    				android:textColor="@color/lightgray"
+                    />
+            </LinearLayout>
+            
+        </RelativeLayout>
+</LinearLayout>
